@@ -1,12 +1,12 @@
 import { Container } from "./styles";
 
-import { About } from "../About/About";
+import { Home } from "../home/Home";
 import { Projects } from "../Projects/Projects";
 
 export function Main() {
   return (
     <Container>
-      <About></About>
+      <Home></Home>
       <Projects></Projects>
     </Container>
   );
