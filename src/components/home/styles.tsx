@@ -53,7 +53,7 @@ export const Container = styled.section`
         font-size: 5rem;
       }
     }
-    .hero-image {
+    .home-image {
       display: none;
     }
   }
