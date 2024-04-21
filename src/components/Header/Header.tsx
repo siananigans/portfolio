@@ -26,6 +26,9 @@ export function Header() {
         <HashLink smooth to="#home" className="navlogo">
           Home
         </HashLink>
+        <HashLink smooth to="#about" className="navlogo">
+          About
+        </HashLink>
         <HashLink smooth to="#projects" className="navlogo">
           Projects
         </HashLink>
