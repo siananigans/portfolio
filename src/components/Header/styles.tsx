@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,6 +15,28 @@ export const Container = styled.section`
   left: 0;
   width: 100vw;
   z-index: 1000;
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    a {
+      color: #ffff;
+      padding: 0.6rem;
+      font-family: "Red Hat Display", sans-serif;
+      font-weight: 500;
+      text-transform: uppercase;
+      transition: filter 0.25s;
+
+      &.button {
+        padding: 0.6rem 2rem;
+      }
+
+      &:hover {
+        filter: brightness(0.6);
+      }
+    }
+  }
 
   .menu-container {
     cursor: pointer;
@@ -125,6 +147,34 @@ export const Container = styled.section`
 
     .menu {
       display: block;
+    }
+
+    nav {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      overflow: hidden;
+      opacity: 0;
+      visibility: hidden;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      background: var(--blue);
+      top: 0;
+      left: 0;
+      transition: opacity 0.25s;
+      background-color: var(--green);
+
+      a.button {
+        background-color: var(--pink);
+      }
+
+      &.active {
+        opacity: 1;
+        visibility: visible;
+      }
     }
   }
 `;

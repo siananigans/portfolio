@@ -1,17 +1,17 @@
 import { Fade, Slide } from "react-awesome-reveal";
 
 import { Container } from "./styles";
-import postgresql from "../../assets/images/about/postgresql.svg";
-import aws from "../../assets/images/about/aws.svg";
-import kubernetes from "../../assets/images/about/kubernetes.svg";
-import docker from "../../assets/images/about/docker.svg";
-import python from "../../assets/images/about/python.svg";
-import java from "../../assets/images/about/java.svg";
-import typescript from "../../assets/images/about/typescript.svg";
-import django from "../../assets/images/about/django.svg";
-import spring from "../../assets/images/about/spring.svg";
-import react from "../../assets/images/about/react.svg";
-import SianLennon from "../../assets/images/about/SianLennon.jpg";
+import postgresql from "../../assets/about/postgresql.svg";
+import aws from "../../assets/about/aws.svg";
+import kubernetes from "../../assets/about/kubernetes.svg";
+import docker from "../../assets/about/docker.svg";
+import python from "../../assets/about/python.svg";
+import java from "../../assets/about/java.svg";
+import typescript from "../../assets/about/typescript.svg";
+import django from "../../assets/about/django.svg";
+import spring from "../../assets/about/spring.svg";
+import react from "../../assets/about/react.svg";
+import SianLennon from "../../assets/about/SianLennon.jpg";
 
 export function About() {
   return (

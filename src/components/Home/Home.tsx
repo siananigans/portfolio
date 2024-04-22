@@ -1,11 +1,11 @@
 import { Fade, Slide } from "react-awesome-reveal";
 import { Container } from "./styles";
 
-import wave from "../../assets/images/home/wave.gif";
-import linkedin from "../../assets/images/home/linkedin.svg";
-import github from "../../assets/images/home/github.svg";
-import gmail from "../../assets/images/home/gmail.svg";
-import avatar from "../../assets/images/home/avatar.svg";
+import wave from "../../assets/home/wave.gif";
+import linkedin from "../../assets/home/linkedin.svg";
+import github from "../../assets/home/github.svg";
+import gmail from "../../assets/home/gmail.svg";
+import avatar from "../../assets/home/avatar.svg";
 
 export function Home() {
   return (
