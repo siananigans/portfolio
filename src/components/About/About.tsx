@@ -26,7 +26,7 @@ export function About() {
           <p>
             Hi there! I'm Sian, a Software Engineer with a passion for creating
             backend and frontend software. With a skill set including Python,
-            Java, JavaScript / Typescript, and React, I have the fullstack tools
+            Java, JavaScript / Typescript (with React), I have the fullstack tools
             and techniques to develop applications from start to finish.
           </p>
         </Slide>
@@ -36,7 +36,7 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            With over 4 years of working in the software industry, I have
+            With over 5 years of working in the software industry, I have
             experience in both backend and frontend development. Typically, in
             the past, I oversaw the whole SDLC from requiremnt gathering and
             design to testing and monotoring. For more information on specific
