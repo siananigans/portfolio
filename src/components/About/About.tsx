@@ -36,8 +36,8 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            With over 5 years of working in the software industry, I have
-            experience in both backend and frontend development. Typically, in
+            With over 5 years of experience in the software industry, I have
+            worked in both backend and frontend development. Typically, in
             the past, I oversaw the whole SDLC from requiremnt gathering and
             design to testing and monotoring. For more information on specific
             experience, please see my resume!
