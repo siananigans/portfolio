@@ -38,7 +38,7 @@ export function About() {
           <p>
             With over 5 years of experience in the software industry, I have
             worked in both backend and frontend development. Typically, in
-            the past, I oversaw the whole SDLC from requiremnt gathering and
+            the past, I oversaw the whole SDLC from requirement gathering and
             design to testing and monotoring. For more information on specific
             experience, please see my resume!
           </p>
