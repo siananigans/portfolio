@@ -6,7 +6,7 @@ import externalLink from "../../assets/projects/external-link.svg";
 export function Projects() {
   return (
     <Container id="projects">
-      <h2>My Personal Projects and Achievments</h2>
+      <h2>My Personal Projects and Achievements</h2>
       <div className="projects">
         <AttentionSeeker effect="tada">
           <div className="project">
@@ -39,7 +39,7 @@ export function Projects() {
               <h3>Wordle Leaderboard</h3>
               <p>
                 A Python & FastApi Application to gather Wordle results and
-                Maintain a Leaderboard. This project leverages Googles public
+                Maintain a Leaderboard. This project leverages Google's public
                 APIs to access and send emails.
               </p>
             </div>
@@ -82,7 +82,7 @@ export function Projects() {
             <div className="body">
               <h3>Call Center Solution</h3>
               <p>
-                A Python & Aiohttp web appliaction built on Telnyx TeXML Apis.
+                A Python & Aiohttp web application built on Telnyx TeXML APIs.
                 This backend server provides a way to dynamically and
                 asynchronously control the flow of calls coming into your Telnyx
                 numbers.
@@ -125,7 +125,7 @@ export function Projects() {
               </div>
             </header>
             <div className="body">
-              <h3>Aiothttp CookieCutter</h3>
+              <h3>Aiohttp CookieCutter</h3>
               <p>
                 Template for Aiohttp applications that leverages the
                 cookiecutter. This project pre-populates replicated parts of an
@@ -258,7 +258,7 @@ export function Projects() {
               </div>
             </header>
             <div className="body">
-              <h3>Currency Convertor</h3>
+              <h3>Currency Converter</h3>
               <p>
                 Java and Spring application that provides APIs to convert any
                 given amount of money to a given currency.

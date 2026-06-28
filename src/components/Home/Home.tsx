@@ -16,8 +16,8 @@ export function Home() {
         </p>
         <Fade>
           <h1>Sian Lennon</h1>
-          <h3>Software Engineer</h3>
-          <p className="small-resume">4 Years of Experience</p>
+          <h3>Sr Software Engineer</h3>
+          <p className="small-resume">7+ Years of Experience</p>
           <h4>Connect With Me!</h4>
           <div className="social-media">
             <a

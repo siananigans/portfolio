@@ -6,9 +6,11 @@ export const Container = styled.header`
   align-items: center;
   padding: 1.8rem 10rem;
 
-  background-color: #21212150;
+  background-color: rgba(13, 13, 16, 0.55);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 
   position: fixed;
   top: 0;

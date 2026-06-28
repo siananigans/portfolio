@@ -36,16 +36,16 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            With over 5 years of experience in the software industry, I have
+            With over 7 years of experience in the software industry, I have
             worked in both backend and frontend development. Typically, in
             the past, I oversaw the whole SDLC from requirement gathering and
-            design to testing and monotoring. For more information on specific
+            design to testing and monitoring. For more information on specific
             experience, please see my resume!
           </p>
         </Slide>
         <Slide direction="left" delay={0.3 * 1000}>
           <p>
-            I am now eager for my next opertunity and am open to Software
+            I am now eager for my next opportunity and am open to Software
             Engineering roles in Vancouver, Canada.
           </p>
         </Slide>
@@ -60,7 +60,7 @@ export function About() {
           </div>
           <div className="hability">
             <Fade direction="up" delay={0.12 * 1000}>
-              <img src={aws} alt="Amizon Web Services" />
+              <img src={aws} alt="Amazon Web Services" />
             </Fade>
           </div>
           <div className="hability">

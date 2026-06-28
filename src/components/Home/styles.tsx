@@ -4,44 +4,84 @@ export const Container = styled.section`
   padding-top: 15%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 8rem;
   background: rgba(0, 0, 0, 0);
   .home-text {
     & > p {
       font-size: 1.8rem;
+      color: var(--text-muted);
     }
     h1 {
       font-size: 7rem;
+      background: linear-gradient(120deg, #ffffff 20%, var(--green-soft) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0.5rem 0;
     }
 
     h3 {
       color: var(--green);
       margin: 1rem 0;
+      font-size: 2.6rem;
+    }
+
+    h4 {
+      font-size: 1.8rem;
+      margin-top: 1rem;
+      color: var(--text-muted);
+      font-weight: 500;
     }
 
     p.small-resume {
-      margin-bottom: 5rem;
+      margin-bottom: 3rem;
+      display: inline-block;
+      padding: 0.5rem 1.4rem;
+      border: 1px solid rgba(35, 206, 107, 0.4);
+      border-radius: 2rem;
+      font-size: 1.5rem;
+      color: var(--green-soft);
+      background: rgba(35, 206, 107, 0.08);
     }
   }
   .social-media {
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding-top: 3rem;
-    padding-left: 1rem;
+    gap: 1.4rem;
+    padding-top: 2rem;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: transform 0.25s ease, background 0.25s ease,
+        border-color 0.25s ease;
+
+      &:hover {
+        transform: translateY(-4px);
+        background: rgba(35, 206, 107, 0.15);
+        border-color: var(--green);
+      }
+    }
 
     img,
     span {
       font-size: 3rem;
-      width: 3.5rem;
+      width: 2.6rem;
     }
   }
 
   .home-image {
     img {
-      max-width: 500px;
+      max-width: 480px;
       float: right;
+      filter: drop-shadow(0 2rem 4rem rgba(35, 206, 107, 0.25));
     }
   }
 
