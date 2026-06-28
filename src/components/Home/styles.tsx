@@ -21,6 +21,12 @@ export const Container = styled.section`
       margin: 0.5rem 0;
     }
 
+    html.light & h1 {
+      background: linear-gradient(120deg, var(--black) 25%, #119150 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
     h3 {
       color: var(--green);
       margin: 1rem 0;
@@ -78,11 +84,10 @@ export const Container = styled.section`
   }
 
   .home-image {
-    img {
-      max-width: 480px;
-      float: right;
-      filter: drop-shadow(0 2rem 4rem rgba(35, 206, 107, 0.25));
-    }
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    min-width: 0;
   }
 
   @media (max-width: 960px) {

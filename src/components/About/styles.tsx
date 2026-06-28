@@ -47,6 +47,19 @@ export const Container = styled.section`
     position: relative;
   }
 
+  html.light & h2 {
+    color: var(--black);
+  }
+
+  html.light & p {
+    color: #3f3f46;
+  }
+
+  html.light & .hability {
+    background: #ffffff;
+    border-color: rgba(0, 0, 0, 0.08);
+  }
+
   h2::after {
     content: "";
     display: block;

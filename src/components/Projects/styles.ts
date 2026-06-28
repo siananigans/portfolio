@@ -9,6 +9,10 @@ export const Container = styled.section`
     margin-bottom: 4rem;
     color: #ffffff;
   }
+
+  html.light & h2 {
+    color: var(--black);
+  }
   .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

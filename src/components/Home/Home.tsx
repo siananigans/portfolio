@@ -1,11 +1,11 @@
 import { Fade, Slide } from "react-awesome-reveal";
 import { Container } from "./styles";
+import { CodeWindow } from "./CodeWindow";
 
 import wave from "../../assets/home/wave.gif";
 import linkedin from "../../assets/home/linkedin.svg";
 import github from "../../assets/home/github.svg";
 import gmail from "../../assets/home/gmail.svg";
-import avatar from "../../assets/home/avatar.svg";
 
 export function Home() {
   return (
@@ -46,7 +46,7 @@ export function Home() {
       </div>
       <div className="home-image">
         <Slide direction="right">
-          <img src={avatar} alt="Avatar" />
+          <CodeWindow />
         </Slide>
       </div>
     </Container>
